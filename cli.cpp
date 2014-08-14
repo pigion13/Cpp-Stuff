@@ -1,9 +1,10 @@
 #include "cli.h"
 
-cli::cli()
-{
+ cli::cli(){
+    dir = ":";
 
-}
+ };
+/*
 void cli::start(){
     while(true){
         cout<<path;
@@ -11,3 +12,4 @@ void cli::start(){
 
     }
 }
+*/
